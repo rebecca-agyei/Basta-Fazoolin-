@@ -31,6 +31,7 @@ class Franchise:
         available_menu.append(menu)
     return(available_menu)
 
+# Creating Businesses
 class Business:
   def __init__(self, name, franchises):
     self.name = name
