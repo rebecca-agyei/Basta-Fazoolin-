@@ -77,8 +77,8 @@ flagship_store = Franchise('1232 West End Road', menus)
 new_installment = Franchise('12 East Mulberry Street', menus)
 
 # Testing out available_menus() method
-print(flagship_store.available_menus(1200))
-print(flagship_store.available_menus(1700))
+# print(flagship_store.available_menus(1200))
+# print(flagship_store.available_menus(1700))
 
 basta_fazoolin = Business("Basta Fazoolin' with my Heart", [flagship_store, new_installment])
 
